@@ -1,0 +1,3 @@
+curl -X POST http://localhost:3000/auth/verify-otp \
+  -H "Content-Type: application/json" \
+  -d '{"loginSessionId":"abc1234","otp":"123456"}'
