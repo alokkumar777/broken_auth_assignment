@@ -1,6 +1,6 @@
 # curl -c cookies.txt -X POST http://localhost:3000/auth/verify-otp \
 #   -H "Content-Type: application/json" \
-#   -d '{"loginSessionId":"e36gi","otp":"808491"}'
+#   -d '{"loginSessionId":"2o4b1e","otp":"866411"}'
 
 
 #   curl -X POST http://localhost:3000/auth/login \
@@ -12,4 +12,4 @@
 
 
 # Replace <jwt> with the token from Task 3
-curl -H "Authorization: Bearer <jwt>" http://localhost:3000/protected
+# curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ijxha2RldkBleGFtcGxlLmNvbSIsInNlc3Npb25JZCI6IjJvNGIxZSIsImlhdCI6MTc3MDk3Mzc2OSwiZXhwIjoxNzcwOTc0NjY5fQ.w1z-fu5ywYsbHRMptna0lsT47gD6wlVSfZggByiFbvw http://localhost:3000/protected
